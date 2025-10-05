@@ -65,6 +65,40 @@ export const SITE_CONTENT: SiteContent = {
     //     "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
     // },
   ],
+  education: [
+    {
+      degree: "Bachelor of Technology in Computer Science and Engineering",
+      institution: "Vellore Institute Of Technology",
+      location: "Vellore, Tamil Nadu, India",
+      duration: "2021 - 2025",
+      description:
+        "Pursued a B.Tech degree with a focus on frontend development, UI/UX design, software engineering, and web technologies, maintaining a GPA of 7.84/10. Completed coursework in Data Structures, Algorithms, React, and Database Systems, gaining hands-on experience in designing and developing scalable applications and intuitive user interfaces using modern web technologies",
+      icon: "/vit.png", // Optional: Add "/university-logo.png" (place in public/)
+      link: "", // Optional: "https://your-university.edu/profile"
+    },
+    {
+      degree: "Class 12 (Senior Secondary) – CBSE",
+      institution: "Alagar Public School",
+      location: "Tuticorin, Tamil Nadu, India",
+      duration: "2019 - 2021",
+      description:
+        "Completed senior secondary education with a focus on Science and Mathematics, achieving 79.6% in the CBSE board examinations. Gained strong foundational knowledge in Physics, Chemistry, Mathematics, and Computer Science, preparing for advanced studies in technology and software development.",
+      icon: "/alagar-bg.png", // Optional: Add "/university-logo.png" (place in public/)
+      link: "", // Optional: "https://your-university.edu/profile"
+    },
+    {
+      degree: "Class 10 (Higher Secondary) – CBSE",
+      institution: "Alagar Public School",
+      location: "Tuticorin, Tamil Nadu, India",
+      duration: "2017 - 2019",
+      description:
+        "Completed secondary education with 87.8% in the CBSE board examinations. Developed a solid academic foundation in Science, Mathematics, and Computer Skills, laying the groundwork for higher education in engineering and computer science.",
+      icon: "/alagar-bg.png", // Optional: Add "/university-logo.png" (place in public/)
+      link: "", // Optional: "https://your-university.edu/profile"
+    },
+
+    // Add more (e.g., certifications like "Google UX Design Certificate" from Coursera)
+  ],
   projects: [
     {
       name: "Spotifu Music",

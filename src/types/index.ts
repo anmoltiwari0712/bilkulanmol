@@ -7,6 +7,15 @@ export interface SiteConfig extends HeaderProps {
   socialImage: string;
   canonicalURL?: string;
 }
+export interface Education {
+  degree: string;
+  institution: string;
+  location: string;
+  duration: string;
+  description: string;
+  icon?: string;  // Optional: e.g., "/university-logo.png" in public/
+  link?: string;  // Optional: e.g., university URL
+}
 
 export interface SiteContent {
   hero: HeroProps;

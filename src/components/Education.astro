@@ -1,0 +1,54 @@
+---
+import Section from "./Section.astro";
+import type { Education } from "../types";
+
+interface Props {
+  education: Education[];
+}
+
+const { education } = Astro.props;
+---
+
+<Section text="Education" href="education">
+  <div class="max-w-2xl space-y-8"> <!-- Centered via max-w-2xl; no extra px-4 needed -->
+    {education?.map(({ degree, institution, location, duration, description, icon, link }) => (
+      <div class="group grid grid-cols-[auto_1fr] gap-6 items-start"> <!-- Grid: Icon | Content; aligns description under headings -->
+        <!-- Icon Column -->
+        <div class="flex h-22 w-22 items-center justify-center rounded-full bg-white/90 "> <!-- Standardized size + dark mode -->
+          {icon ? (
+            <img
+              src={icon}
+              alt={`${institution} logo`}  
+              class="h-18 w-18 rounded-full object-cover" 
+            />
+          ) : (
+            <span class="font-bold text-primary">
+              {degree.substring(0, 2).toUpperCase()}  <!-- e.g., "BT" for B.Tech -->
+            </span>
+          )}
+        </div>
+        <!-- Content Column (all text aligned here) -->
+        <div class="flex flex-col"> <!-- Vertical stack for alignment -->
+          <h3 class="group-hover:text-secondary text-xl font-bold text-primary transition-colors">
+            {degree}
+          </h3>
+          <p class="text-base text-gray-600">
+            {link ? (
+              <a href={link} target="_blank" rel="noopener noreferrer" class="hover:underline">
+                {institution}
+              </a>
+            ) : (
+              institution
+            )}
+          </p>
+          <p class="text-sm text-gray-500 mb-4"> <!-- Added mb-4 for spacing before description -->
+            {location} • {duration}
+          </p>
+          <p class="leading-relaxed text-gray-700 text-justify"> <!-- Add text-justify: Justified alignment for structured look -->
+            {description}
+          </p>
+        </div>
+      </div>
+    ))}
+  </div>
+</Section>
