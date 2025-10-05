@@ -102,25 +102,29 @@ export const SITE_CONTENT: SiteContent = {
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
+      name: "VITian UI Case Study",
+      summary:
+        "A UI/UX design project focused on creating an intuitive and user-friendly interface for a VITian platform.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      linkSource: "https://www.behance.net/gallery/230696965/VITian-Redesigned",
+      image: "/Vitian.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
+      name: "HealthSyncc App",
+      summary:
+        "A UI/UX design project focused on secure healthcare data management with an intuitive and user-friendly interface.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      linkSource: "https://www.behance.net/gallery/200851221/HealthSyncc",
+      image: "/healthsyncc.png",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
+      name: "India’s Got Latent Case Study",
+      summary:
+        "A UI/UX design project focused on creating an engaging and intuitive interface for the “India’s Got Latent” platform.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      linkSource:
+        "https://www.behance.net/gallery/219131203/Redesigning-Indias-Got-Latent",
+      image: "/latent.png",
     },
   ],
   about: {
