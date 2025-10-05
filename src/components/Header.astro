@@ -84,7 +84,7 @@ const { siteLogo, navLinks } = Astro.props;
         }
       });
     },
-    { threshold: 0.5 },
+    { threshold: 0.1 },  // Changed from 0.5: Triggers earlier (10% visible) for sticky/short sections like Projects
   );
 
   document.querySelectorAll("section").forEach((section) => {

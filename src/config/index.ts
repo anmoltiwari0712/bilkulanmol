@@ -9,6 +9,7 @@ export const SITE_CONFIG: SiteConfig = {
   siteLogo: "/anmol.jpeg",
   navLinks: [
     { text: "Experience", href: "#experience" },
+    { text: "Education", href: "#education" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
