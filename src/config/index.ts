@@ -129,11 +129,9 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      Hi, I’m Anmol Tiwari, a passionate developer and designer based in India, specializing in crafting seamless web and mobile experiences. I thrive at the intersection of UI/UX design and software development, building intuitive, user friendly, and high performance applications. With hands on experience in frontend development, React.js, and modern web technologies, I focus on creating solutions that are scalable, visually appealing, and technically robust. My projects span from interactive web platforms to engaging UI/UX case studies, all designed with an emphasis on usability, performance, and maintainability.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/bilkulanmol.jpg",
   },
 };
 
