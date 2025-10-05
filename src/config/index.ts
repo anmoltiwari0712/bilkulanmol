@@ -13,14 +13,17 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "Twitter", href: "https://x.com/bilkulanmol" },
+    {
+      text: "LinkedIn",
+      href: "https://www.linkedin.com/in/anmol-tiwari-0bbb14227/",
+    },
+    { text: "Github", href: "https://github.com/anmoltiwari0712" },
+    { text: "Youtube", href: "https://www.youtube.com/@bilkulanmol" },
+    { text: "Behance", href: "https://www.behance.net/oanmoltiwari7" },
   ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  socialImage: "/anmol.jpeg",
+  canonicalURL: "https://bilkulanmol.vercel.app/",
 };
 
 export const SITE_CONTENT: SiteContent = {
