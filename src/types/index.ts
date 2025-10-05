@@ -13,8 +13,8 @@ export interface Education {
   location: string;
   duration: string;
   description: string;
-  icon?: string;  // Optional: e.g., "/university-logo.png" in public/
-  link?: string;  // Optional: e.g., university URL
+  icon?: string; // Optional: e.g., "/university-logo.png" in public/
+  link?: string; // Optional: e.g., university URL
 }
 
 export interface SiteContent {
@@ -22,6 +22,7 @@ export interface SiteContent {
   experience: ExperienceProps[];
   projects: ProjectProps[];
   about: AboutProps;
+  education: Education[];
 }
 
 export interface HeroProps {
